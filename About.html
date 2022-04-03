@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+
+<html>
+    <script type="module" src="./main.js"></script>
+    <style>
+        .about{
+            justify-content:  center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+        body{
+        background: radial-gradient(#e66465, #9198e5);
+     }
+        .Headers{
+            color:white;
+            justify-content:  center;
+            align-items: center;
+            text-align: center;
+            font-size: 40px;
+
+        }
+        
+        p {
+            padding: 5px;
+        }
+        .Headers2{
+            color: white;
+            justify-content:  center;
+            align-items: center;
+            text-align: center;
+            font-size: 55px;
+            vertical-align: middle;
+            
+
+        }
+        .grid-container1 {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            padding: 20px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            padding: 20px;
+        }
+        .grid-item {
+            padding: 20px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        li{
+        float:left;
+    }
+
+    li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: monaco;
+    }
+    li a:hover:not(.active) {
+        background-color: #111;
+    }
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+    .navbarContainer{
+        font-family: monaco;
+        align-items: center; 
+        justify-content: center;
+        text-align: center;
+        color:rgb(177, 225, 234);
+        border-radius: 2px;
+        cursor: pointer;
+        transition: all linear 1s;
+        height:45px; 
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    
+      
+    }
+    footer {
+        text-align: center;
+        padding: 3px;
+        color: white;
+        font-family:monaco;
+       
+     }
+
+
+    .navbarButton:hover{
+        font-family: monaco;
+        transition: all linear .5s;
+        color:rgb(255, 255, 255);
+        border-radius: 5%;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+   
+    }
+        
+    </style>
+    <body>
+        <div>
+            <div class="navbarContainer" id="navbarContainer">
+                <li><a class="active" href="/" id="Home">Home</a></li>
+                <li><a href="Links.html" id="Links">Useful Links</a></li>
+                <li><a href="GoalTracker.html" id="GoalTracker">Goal Tracker</a></li>
+                <li><a href="Alarm.html" id="Alarm">Alarm</a></li>
+                <li><a href="About.html" id="About">About</a></li>   
+                <li><a href="Music.html" id="Music">Music</a></li>   
+            </div>
+
+        
+            <h1 class = "Headers" style = "font-size: 60px; font-family: sans-serif;">About Us</h1>
+
+            <div class="grid-container1">
+                <div class="grid-tem" style = "padding: 100px 0; text-align: center;">
+                    <h1 class = "Headers2" style = "padding: 2px;">The Study</h1>
+                    <h1 class = "Headers2">Room</h1>
+                </div>
+                <div class="grid-item" style=" background-color: rgba(255,255,255,.8); border-radius: 5px;">
+                    <div>
+                        <img src = "https://media.istockphoto.com/photos/fireplace-picture-id157523682?k=20&m=157523682&s=612x612&w=0&h=O-rWgkOqcc0CuyVWw8B4aSZ104zZFe9NXLD8xI8dLGs=" />
+                    </div>
+                </div>
+            </div>
+        
+            <br>
+            <h1 class = "Headers2">Our Tools</h1>
+
+            <div class="grid-container">
+                <div class="grid-tem">
+                </div>
+                <div class="grid-item" style = "border: 10px solid white;">
+                    <h1 class = "Headers2" style = "font-size: 35px">Goal Tracker</h1>
+                    <p style = "font-size: 20px; text-align: center;">The goal tracker lets students visualize their progress by writing what tasks they need done and what's been accomplished</p>
+                </div>
+                <div class="grid-item" style = "border: 10px solid white;">
+                    <h1 class = "Headers2" style = "font-size: 35px">Music</h1>
+                    <p style = "font-size: 20px; text-align: center;">In the ambient music player students can choose from a list of "moods" they want to foster throughout their study session</p>
+                    <p style = "font-size: 20px; text-align: center;">If the Pomodoro timer is active the music player will play music during study time and will pause during breaks.</p>
+                </div>
+            </div>
+    
+    </div>
+    </body>
+    <footer>
+        <p>Christina Zimmer<br>
+
+    </footer>
+</html>

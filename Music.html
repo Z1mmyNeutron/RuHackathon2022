@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+
+<html>
+    <script type="module" src="./music.js"></script>
+    <style>
+    
+        .Headers{
+            color:white;
+            justify-content:  center;
+            align-items: center;
+            text-align: center;
+            font-size: 40px;
+
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .grid-item {
+            background-color: rgba(0, 0, 0, .5);
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            font-size: 20px;
+            text-align: center;
+            color:white;
+        }
+
+     
+    li{
+        float:left;
+    }
+    footer {
+        text-align: center;
+        padding: 3px;
+ 
+        color: white;
+        font-family:monaco;
+       
+    }
+    body{
+        background: radial-gradient(#e66465, #9198e5);
+    }
+    li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: monaco;
+    }
+    li a:hover:not(.active) {
+        background-color: #111;
+    }
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+       
+    }
+    .navbarContainer{
+        font-family: monaco;
+        align-items: center; 
+        justify-content: center;
+        text-align: center;
+        color:rgb(177, 225, 234);
+        border-radius: 2px;
+        cursor: pointer;
+        transition: all linear 1s;
+        height:45px; 
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    
+      
+    }
+
+
+    .navbarButton:hover{
+        font-family: monaco;
+        transition: all linear .5s;
+        background-color: rgb(4, 24, 0);
+        color:rgb(255, 255, 255);
+        border-radius: 5%;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+   
+    }
+
+        
+    </style>
+    <body>
+        <div>
+            <div class="navbarContainer" id="navbarContainer">
+                <li><a class="active" href="/" id="Home">Home</a></li>
+                <li><a href="Links.html" id="Links">Useful Links</a></li>
+                <li><a href="GoalTracker.html" id="GoalTracker">Goal Tracker</a></li>
+                <li><a href="Music.html" id="Music">Music</a></li>   
+            </div>
+        
+            <h1 class = "Headers">Music</h1>
+
+            <div class="grid-container">
+                <div class="grid-tem">
+    
+              
+                </div>
+                <div class="grid-item">
+                    <div>
+                        <h1>Music Library</h1>
+                        <p>This is our music library. Treat yourself to a various array of soothing beats to help keep focused during your study</p>
+                    </div>
+
+                </div>
+            </div>
+        
+            <br>
+
+            <div class="grid-container">
+                <div class="grid-tem">
+                    <img src = "https://opensource.com/sites/default/files/uploads/eq-1-headphones.png" />
+                </div>
+                <div class="grid-item">
+                    <div style="display:block;">
+                    <audio controls >
+                        <source src="./audio/cali.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio controls>
+                        <source src="./audio/Homework.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio controls>
+                        <source src="./audio/Ice.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio controls>
+                        <source src="./audio/NightLight.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio controls>
+                        <source src="./audio/Pride.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio controls>
+                        <source src="./audio/Pursuit.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio controls>
+                        <source src="./audio/Thing.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio controls>
+                        <source src="./audio/Trippin.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio controls>
+                        <source src="./audio/Warrior.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <audio controls>
+                        <source src="./audio/World.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+
+
+
+                    </div>
+                    
+                </div>
+            </div>
+    
+    </div>
+    </body>
+    <footer>
+        <p>Christina Zimmer<br>
+
+        <a href="mailto:crzimmer1@gmail.com">crzimmer1@gmail.com</a></p>
+    </footer>
+</html>

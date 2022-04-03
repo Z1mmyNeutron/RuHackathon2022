@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+
+<html>
+    <script type="module" src="./main.js"></script>
+    <style>
+        
+        .Headers{
+            color:white;
+            justify-content:  center;
+            align-items: center;
+            text-align: center;
+            font-size: 40px;
+
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            padding: 10px;
+        }
+        .grid-item {
+      
+            padding: 20px;
+            font-size: 20px;
+            text-align: center;
+            
+
+        }
+        .linksOne{
+            font-size: 20px;
+            padding: 20px;
+            float: left;
+            
+        }
+        .linksTwo{
+            font-size: 20px;
+            padding: 20px;
+            float: left;
+        }
+        .linksThree{
+            font-size: 20px;
+            padding: 20px;
+            float:left;
+        }
+        footer {
+        text-align: center;
+        padding: 3px;
+        
+        color: white;
+        font-family:monaco;
+       
+    }
+        .linksFour{
+            font-size: 20px;
+            padding: 20px;
+            float:left;
+        }
+        a:link, a:visited {
+   
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        body{
+            background: radial-gradient(#e66465, #9198e5);
+        }
+        a:hover, a:active {
+           
+        }
+
+
+    li{
+        float:left;
+    }
+
+    li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: monaco;
+    }
+    li a:hover:not(.active) {
+        background-color: #111;
+    }
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+    .navbarContainer{
+        font-family: monaco;
+        align-items: center; 
+        justify-content: center;
+        text-align: center;
+        color:rgb(177, 225, 234);
+        border-radius: 2px;
+        cursor: pointer;
+        transition: all linear 1s;
+        height:45px; 
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    
+      
+    }
+
+
+    .navbarButton:hover{
+        font-family: monaco;
+        transition: all linear .5s;
+        background: radial-gradient(#e66465, #9198e5);
+        color:rgb(255, 255, 255);
+        border-radius: 5%;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+   
+    }
+        
+    </style>
+    <body>
+        <div>
+            <div class="navbarContainer" id="navbarContainer">
+                <li><a class="active" href="/" id="Home">Home</a></li>
+                <li><a href="Links.html" id="Links">Useful Links</a></li>
+                <li><a href="GoalTracker.html" id="GoalTracker">Goal Tracker</a></li>
+                <li><a href="Music.html" id="Music">Music</a></li>   
+            </div>
+        
+            <h1 class = "Headers">Useful Links</h1>
+
+            <div class="grid-container">
+                <div class="grid-item" >
+                    <img src = "https://www.wesuggestsoftware.com/wp-content/uploads/2018/04/DOC-e1529480310475.jpeg" />
+               
+                </div>
+                <div class="grid-item">
+                   
+                    <div class="linksOne">
+                
+                        <a class="active" href="/" id="Home">Home</a>
+                        <a href="https://www.google.com/drive/" id="GoogleDrive">Google Drive</a>
+                    </div>
+                    <div class="linksTwo">
+                        <a href="https://www.easybib.com/" id="EasyBib">Easy Bib</a>
+                        <a href="https://quizlet.com/" id="Quizlet">Quizlet</a>
+                    </div>
+                    <div class="linksThree">
+                        <a href="https://mail.google.com/mail" id="GoogleMail">GMail</a>
+                        <a href="https://www.google.com/slides" id="GoogleSlides">Google Slides</a>
+                    </div>
+                    <div class="linksThree">
+                        <a href="https://www.google.com/docs" id="GoogleDocs">Google Docs</a>
+                        <a href="https://www.google.com/sheets/" id="GoogleSheets">Google Sheets</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        
+            <br>
+
+        
+    
+    </div>
+    </body>
+    <footer>
+        <p>Christina Zimmer<br>
+
+            <a href="mailto:crzimmer1@gmail.com">crzimmer1@gmail.com</a></p>
+    </footer>
+</html>
